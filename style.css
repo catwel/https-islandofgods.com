@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/minecraft\ 3.jpg);
+    background-position: center center;
+    background-size: cover;
+    display:  flex;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+    background-repeat:  no-repeat;
+}
+
+.contaniner{
+    max-width: 100px;
+    margin: 0% auto;
+}
+
+menu{
+position: absolute;
+top: 10px;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+
+}
+
+.menu .logo{
+font-weight: bolder;
+font-size: 25px;
+color: green;
+}
+
+.menu .navbar ul{
+position: relative;
+float: left;
+
+}
+
+.menu .navbar ul a {
+font-size: 18px;
+padding:  20px;
+color: white;
+display: block;
+}
+.menu .navbar ul a:hover {
+    color: green;
+
+}
+
+#menu {
+    display: none;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-text {
+    text-align: center;
+    width: 1500px;
+}
+
+.header-text h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.header-text p {
+    margin-top: 5px;
+    color: white;
+}
+
+.services {
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+.services h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.txt-1 {
+    font-size: 17px;
+    padding: 0px 200px;
+}
+.group-services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    padding: 35px 25px;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+
+}
+.imgs img {
+    width: 250px;
+    margin: 0px;
+}
+
+.bg-sec {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/fondo\ 1.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 35px 0px;
+}
+
+.bg-txt {
+    padding: 100px 0px;
+    text-align: center;
+    color: white;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: darkgreen;
+   margin-top: 35px;
+   padding: 15px 25px; 
+   border-radius: 25px;
+   color: white;
+}
+
+.bg-txt {
+    padding: 100px 0px;
+    text-align: center;
+    color: white;
+}
+.bg-txt h2 {
+    font-size: 55px;
+    margin-bottom: 35px;
+}
+
+.bg-txt p {
+    font-size: 18px;
+    margin-bottom: 25px;
+
+}
+
+.prices {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.price {
+    text-align: center;
+}
+
+.price h3{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.price ul li {
+    font-size: 18px;
+}
+@media(max-width:991px ) {
+.menu {
+    padding: 20px;
+
+}
+.menu label {
+    display: initial;
+}
+.menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: green;
+    display: none;
+}
+.menu .navbar ul li {
+    width: 100%;
+}
+.menu .navbar ul li a:hover {
+    color: white;
+}
+#menu:checked ~ .navbar {
+    display: initial;
+}
+.menu-icono {
+    width: 25px;
+}
+
+.imgs{
+
+flex-direction: column;
+}
+}
+
+
+
+
+
+
+   
